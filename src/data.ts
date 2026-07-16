@@ -33,7 +33,7 @@ export const doctorData: Doctor = {
       "Developed advanced laser protocols for chronic wounds, diabetic feet, and complex burn scars."
     ]
   },
-  image: "/src/assets/images/doctor_ahmed_1784210177919.jpg"
+  image: "/images/doctor_ahmed_1784210177919.jpg"
 };
 
 export const servicesData: Service[] = [
@@ -65,7 +65,7 @@ export const servicesData: Service[] = [
         "Comprehensive post-operative care and supportive PRP sessions to boost density."
       ]
     },
-    image: "/src/assets/images/hair_transplant_before_after_1784210189659.jpg",
+    image: "/images/hair_transplant_before_after_1784210189659.jpg",
     iconName: "Scissors",
     benefits: {
       ar: [
@@ -110,7 +110,7 @@ export const servicesData: Service[] = [
         "Highly specialized nursing team trained in strict sterile wound debridement and dressings."
       ]
     },
-    image: "/src/assets/images/laser_wound_treatment_1784210204459.jpg",
+    image: "/images/laser_wound_treatment_1784210204459.jpg",
     iconName: "Activity",
     benefits: {
       ar: [
@@ -155,7 +155,7 @@ export const servicesData: Service[] = [
         "Natural, subtle rejuvenation plans avoiding artificial and overfilled looks."
       ]
     },
-    image: "/src/assets/images/clinic_reception_hero_1784210242698.jpg",
+    image: "/images/clinic_reception_hero_1784210242698.jpg",
     iconName: "Sparkles",
     benefits: {
       ar: [
@@ -186,8 +186,8 @@ export const caseStudiesData: CaseStudy[] = [
       en: "A 34-year-old male with severe androgenetic alopecia and significant hairline recession. 3,800 micro-grafts transplanted via advanced FUE."
     },
     category: "hair-transplant",
-    beforeImage: "/src/assets/images/hair_transplant_before_after_1784210189659.jpg", // Contains before and after
-    afterImage: "/src/assets/images/hair_transplant_before_after_1784210189659.jpg",
+    beforeImage: "/images/hair_transplant_before_after_1784210189659.jpg", // Contains before and after
+    afterImage: "/images/hair_transplant_before_after_1784210189659.jpg",
     details: {
       ar: [
         "عدد البصيلات: 3800 بصيلة طبيعية.",
@@ -214,8 +214,8 @@ export const caseStudiesData: CaseStudy[] = [
       en: "A 58-year-old diabetic patient with a deep, non-healing foot ulcer of 6 months. Treated with combined bio-stimulating laser and cellular smart dressing protocols."
     },
     category: "wound-care",
-    beforeImage: "/src/assets/images/laser_wound_treatment_1784210204459.jpg",
-    afterImage: "/src/assets/images/laser_wound_treatment_1784210204459.jpg",
+    beforeImage: "/images/laser_wound_treatment_1784210204459.jpg",
+    afterImage: "/images/laser_wound_treatment_1784210204459.jpg",
     details: {
       ar: [
         "مدة العلاج: 8 أسابيع بمعدل جلستين في الأسبوع.",

@@ -42,7 +42,7 @@ export default function Hero({ currentLanguage, onNavigate }: HeroProps) {
       {/* Background Image with Deep Blue Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/src/assets/images/clinic_reception_hero_1784210242698.jpg" 
+          src="/images/clinic_reception_hero_1784210242698.jpg" 
           alt="Nour Clinic Reception" 
           className="w-full h-full object-cover object-center scale-105 filter brightness-[0.25] contrast-[1.1]"
           referrerPolicy="no-referrer"

@@ -96,7 +96,7 @@ export default function About({ currentLanguage }: AboutProps) {
             {/* Logo Image Column */}
             <div className="relative min-h-[300px]" id="logo-mockup-column">
               <img 
-                src="/src/assets/images/nour_clinic_logo_1784210220026.jpg" 
+                src="/images/nour_clinic_logo_1784210220026.jpg" 
                 alt="Nour Clinic Heritage" 
                 className="absolute inset-0 w-full h-full object-cover object-center"
                 referrerPolicy="no-referrer"
