@@ -1,0 +1,6 @@
+{
+  "name": "Nour Clinic",
+  "description": "عيادة نور - مركز متخصص في زراعة الشعر، التجميل، وعلاج الجروح بالليزر تحت إشراف أ.د. أحمد عادل نور الدين",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
