@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Calendar, Phone, Award, ShieldCheck, ThumbsUp } from 'lucide-react';
 import { Language } from '../types';
+import receptionImg from '../assets/images/clinic_reception_hero_1784210242698.jpg';
 
 interface HeroProps {
   currentLanguage: Language;
@@ -42,7 +43,7 @@ export default function Hero({ currentLanguage, onNavigate }: HeroProps) {
       {/* Background Image with Deep Blue Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/images/clinic_reception_hero_1784210242698.jpg" 
+          src={receptionImg} 
           alt="Nour Clinic Reception" 
           className="w-full h-full object-cover object-center scale-105 filter brightness-[0.25] contrast-[1.1]"
           referrerPolicy="no-referrer"

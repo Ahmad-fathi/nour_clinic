@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Award, ShieldCheck, GraduationCap, Users } from 'lucide-react';
 import { doctorData } from '../data';
 import { Language } from '../types';
+import logoImg from '../assets/images/nour_clinic_logo_1784210220026.jpg';
 
 interface AboutProps {
   currentLanguage: Language;
@@ -96,7 +97,7 @@ export default function About({ currentLanguage }: AboutProps) {
             {/* Logo Image Column */}
             <div className="relative min-h-[300px]" id="logo-mockup-column">
               <img 
-                src="/images/nour_clinic_logo_1784210220026.jpg" 
+                src={logoImg} 
                 alt="Nour Clinic Heritage" 
                 className="absolute inset-0 w-full h-full object-cover object-center"
                 referrerPolicy="no-referrer"
