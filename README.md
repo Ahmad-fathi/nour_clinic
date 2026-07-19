@@ -1,20 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Nour Clinic Website
 
-# Run and deploy your AI Studio app
+A modern, responsive website for Nour Clinic, designed to provide patients with an easy way to learn about the clinic, explore medical services, and get in touch. The website focuses on performance, accessibility, and a clean user experience.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/33094da8-2cf2-4089-8373-8930ce1f239a
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Features
+Responsive design for all devices
+Modern and user-friendly interface
+Fast loading and optimized performance
+SEO-friendly structure
+Service showcase
+Doctors and clinic information
+Contact section with appointment details
+Clean and maintainable code
+Tech Stack:
+Typescript
+ReactJS
